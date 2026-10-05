@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+private/
+data/
+runs/
+*.sqlite
+*.key

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reddit 历史数据采集"
+  short_description: "从历史归档与 Arctic Shift 采集 Reddit，保留覆盖审计和离线复现"
+  default_prompt: "使用 $reddit-history-collector 按社区和日期收集历史 Reddit 数据，保存原始响应、覆盖缺口和可复现输出。"
