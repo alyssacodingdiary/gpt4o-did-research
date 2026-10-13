@@ -1,0 +1,32 @@
+{
+  "verification_date": "2026-10-13",
+  "script_version": "1.0",
+  "script_commit": "71a0ea01c3fcb3e96f3208fbf716917d9edb264d",
+  "status": "SYNTHETIC_SOFTWARE_TESTS_ONLY",
+  "n_checks": 8,
+  "checks": [
+    "Known synthetic state DID coefficients recovered at all locked thresholds.",
+    "Three January policy dates correctly detected as indistinguishable in quarterly fixture.",
+    "Change-score DID agrees with balanced fixed-unit-weight two-way demeaning.",
+    "Fails closed on duplicate_key",
+    "Fails closed on missing_riskset_row",
+    "Fails closed on unverified_coverage",
+    "Fails closed on time_varying_weight",
+    "Cluster covariance agrees with statsmodels WLS benchmark on synthetic noisy outcomes."
+  ],
+  "deterministic_replay": {
+    "runs": 2,
+    "files_compared": 14,
+    "mismatches": [],
+    "excluded": "run_manifest.json includes actual run timestamp"
+  },
+  "tested_environment": {
+    "python": "3.11.9",
+    "numpy": "1.26.0",
+    "pandas": "2.1.1",
+    "scipy": "1.11.3",
+    "statsmodels": "0.14.6"
+  },
+  "real_LA_results_generated": false,
+  "scope": "This is a software verification record, not empirical evidence, power analysis, preregistration, validation of input coverage, or causal identification."
+}
