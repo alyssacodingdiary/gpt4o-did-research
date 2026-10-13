@@ -1,0 +1,13 @@
+{
+  "analysis_kind": "exploratory",
+  "pre_dates": [],
+  "post_dates": [],
+  "reference_date": "",
+  "primary_threshold": 28,
+  "thresholds": [28, 30, 31],
+  "date_provenance": "REPLACE: actual last_scraped or verified snapshot timestamps; calendar stay dates are not historical observation dates.",
+  "coverage_basis": "REPLACE: source-by-period completeness audit establishing explicit absence; missing rows are not absence.",
+  "treatment_basis": "REPLACE: locked pre-fire coordinate and hex exposure construction, geography, support, and control definition.",
+  "weight_basis": "REPLACE: pre-treatment weight objective, inputs, training periods, constraints, regularization and diagnostics; use 1 only for an explicitly unweighted baseline.",
+  "note": "TEMPLATE ONLY. Intentionally fails validation until actual dates and documented input bases are supplied. Do not use synthetic fixture dates as observed LA dates. The script cannot validate the truth of researcher-supplied provenance."
+}
